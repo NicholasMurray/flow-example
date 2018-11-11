@@ -1,0 +1,12 @@
+[ignore]
+
+[include]
+
+[libs]
+flow-checked
+
+[lints]
+
+[options]
+
+[strict]

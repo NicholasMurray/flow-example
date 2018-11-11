@@ -1,0 +1,19 @@
+{
+  "name": "flow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/example.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow",
+    "flow:check": "flow ./src/*",
+    "flow:build": "flow-remove-types ./src/ -d ./lib/ --all --pretty"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "flow-bin": "^0.85.0",
+    "flow-remove-types": "^1.2.3"
+  }
+}
